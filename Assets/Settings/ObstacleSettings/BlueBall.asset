@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e5f0febef8845968957ab6a48d935a, type: 3}
+  m_Name: BlueBall
+  m_EditorClassIdentifier: 
+  m_sizeTiers:
+  - m_score: 3
+    m_radius: 0.3
+    m_horizontalSpeed: 3.5
+    m_maxVerticalSpeed: 5
+    m_startVerticalSpeed: 4
+    m_verticalAcceleration: 5
+    m_sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+    m_spriteColor: {r: 0, g: 0.060156107, b: 1, a: 1}
+  - m_score: 6
+    m_radius: 0.75
+    m_horizontalSpeed: 3.25
+    m_maxVerticalSpeed: 6
+    m_startVerticalSpeed: 3.5
+    m_verticalAcceleration: 5
+    m_sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+    m_spriteColor: {r: 0, g: 0.05882353, b: 1, a: 1}
+  - m_score: 20
+    m_radius: 1.5
+    m_horizontalSpeed: 3
+    m_maxVerticalSpeed: 6.5
+    m_startVerticalSpeed: 3
+    m_verticalAcceleration: 5
+    m_sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+    m_spriteColor: {r: 0, g: 0.05882353, b: 1, a: 1}
+  - m_score: 40
+    m_radius: 2
+    m_horizontalSpeed: 2.75
+    m_maxVerticalSpeed: 7
+    m_startVerticalSpeed: 2.5
+    m_verticalAcceleration: 5
+    m_sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+    m_spriteColor: {r: 0, g: 0.05882353, b: 1, a: 1}
+  - m_score: 70
+    m_radius: 2.5
+    m_horizontalSpeed: 2.5
+    m_maxVerticalSpeed: 8
+    m_startVerticalSpeed: 2
+    m_verticalAcceleration: 5
+    m_sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+    m_spriteColor: {r: 0, g: 0.05882353, b: 1, a: 1}

@@ -13,9 +13,9 @@ public class InputSystem : BaseScriptableObjectSystem
     public InputEvent Player1InputEvent => m_player1InputEvent;
     public InputEvent Player2InputEvent => m_player2InputEvent;
 
-    public UnityEvent OnPausePressed { get; } = new();
+    public UnityEvent OnPausePressed { get; } = new UnityEvent();
 
-    public UnityEvent OnPlayer2Spawn { get; } = new();
+    public UnityEvent OnPlayer2Spawn { get; } = new UnityEvent();
 
     private InputChangedArgs m_player1LastInput;
     private InputChangedArgs m_player2LastInput;

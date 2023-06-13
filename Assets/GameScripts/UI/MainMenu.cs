@@ -13,7 +13,7 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private List<string> m_highScoreFormats;
 
     private LevelManagementSystem m_levelManagementSystem;
-    private List<TMP_Text> m_highScoreTexts = new();
+    private List<TMP_Text> m_highScoreTexts = new List<TMP_Text>();
     
     private void Start()
     {

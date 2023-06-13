@@ -7,10 +7,10 @@ public class BallObstaclePool : MonoBehaviour
     [SerializeField] private BallObstacle m_ballPrefab;
     [SerializeField] private int m_initialPoolSize;
     
-    private List<BallObstacle> m_pool = new();
-    private List<BallObstacle> m_availableBallObstacles = new();
+    private List<BallObstacle> m_pool = new List<BallObstacle>();
+    private List<BallObstacle> m_availableBallObstacles = new List<BallObstacle>();
     
-    public UnityEvent ObstaclesCleared { get; } = new();
+    public UnityEvent ObstaclesCleared { get; } = new UnityEvent();
 
     private void Awake()
     {

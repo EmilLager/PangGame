@@ -14,10 +14,10 @@ public class LevelManagementSystem : BaseScriptableObjectSystem
     [SerializeField] private int m_startingLives;
     
     public List<LevelSettings> LevelSettings => m_levelSettings;
-    public UnityEvent LevelLoaded { get; } = new();
-    public UnityEvent MainMenuLoaded { get; } = new();
-    public UnityEvent GameOver { get; } = new();
-    public UnityEvent LevelFinished { get; } = new();
+    public UnityEvent LevelLoaded { get; } = new UnityEvent();
+    public UnityEvent MainMenuLoaded { get; } = new UnityEvent();
+    public UnityEvent GameOver { get; } = new UnityEvent();
+    public UnityEvent LevelFinished { get; } = new UnityEvent();
 
     public List<int> HighScores => m_highScores;
     public int StartingLives => m_startingLives;

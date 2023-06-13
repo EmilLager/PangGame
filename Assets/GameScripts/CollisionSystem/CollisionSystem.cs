@@ -153,10 +153,10 @@ public class RectData
     }
     
     public static RectData operator +(RectData rect, Vector2 offset)
-        => new(rect.point1 + offset, rect.point2 + offset, rect.point3 + offset, rect.point4 + offset);
+        => new RectData(rect.point1 + offset, rect.point2 + offset, rect.point3 + offset, rect.point4 + offset);
     
     public static RectData operator -(RectData rect, Vector2 offset)
-        => new(rect.point1 - offset, rect.point2 - offset, rect.point3 - offset, rect.point4 - offset);
+        => new RectData(rect.point1 - offset, rect.point2 - offset, rect.point3 - offset, rect.point4 - offset);
 }
 
 public enum CollisionObjectType

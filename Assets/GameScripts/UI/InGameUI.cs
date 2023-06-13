@@ -18,7 +18,7 @@ public class InGameUI : MonoBehaviour
     [SerializeField] private RectTransform m_toutchControls;
     private LevelManagementSystem m_levelManagementSystem;
 
-    private List<Image> m_lifeIcons = new();
+    private List<Image> m_lifeIcons = new List<Image>();
 
     private void Start()
     {

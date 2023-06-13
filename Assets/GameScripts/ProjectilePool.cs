@@ -7,8 +7,8 @@ public class ProjectilePool : MonoBehaviour
     [SerializeField] private RectObstacle m_projectilePrefab;
     [SerializeField] private int m_initialPoolSize;
     
-    private List<RectObstacle> m_pool = new();
-    private List<RectObstacle> m_availableProjectiles = new();
+    private List<RectObstacle> m_pool = new List<RectObstacle>();
+    private List<RectObstacle> m_availableProjectiles = new List<RectObstacle>();
 
     private void Awake()
     {

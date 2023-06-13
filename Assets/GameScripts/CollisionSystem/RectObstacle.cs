@@ -10,7 +10,7 @@ public class RectObstacle : MonoBehaviour
     [SerializeField] private bool m_matchScaleToRect;
 
     private CollisionSystem m_collisionSystem;
-    public UnityEvent OnHitObstacle { get; } = new();
+    public UnityEvent OnHitObstacle { get; } = new UnityEvent();
     
     public CollisionObjectType CollisionType => m_collisionType;
     public RectData RectData => m_rectData + (m_updateRectWithPosition ? transform.position : Vector3.zero);

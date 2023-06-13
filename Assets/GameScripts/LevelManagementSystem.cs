@@ -25,7 +25,7 @@ public class LevelManagementSystem : BaseScriptableObjectSystem
 
     private BallObstaclePool m_obstaclePool;
     private int m_currentLevel;
-    private List<int> m_highScores;
+    private List<int> m_highScores = new List<int>();
     private int m_currentScore;
     private int m_currentLives;
     

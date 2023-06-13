@@ -86,6 +86,7 @@ public class CharacterController : RectObstacle
             HandleFire();
         }
         
+        
         m_characterAnimator.SetInteger(MovementDirection, inputArgs.InputDirection);
         m_movementDirection = inputArgs.InputDirection;
     }
